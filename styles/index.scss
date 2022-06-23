@@ -1,3 +1,19 @@
 @import './variables.scss';
+@import './breakpoints.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: $base-font-size;
+  color: $text-color-main;
+}
+
+.page {
+  width: $xxl;
+  margin: 0 auto;
+}
 
 @import './header.scss';
