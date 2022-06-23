@@ -1,0 +1,117 @@
+@import './variables.scss';
+@import './breakpoints.scss';
+
+.footer-navigation {
+  display: flex;
+  width: 1140px;
+  height: 339px;
+  margin: 0 auto;
+}
+
+.about-company {
+  margin-top: 43px;
+  width: 360px;
+  &__text {
+    font-size: 18px;
+    line-height: 26px;
+    color: $text-color-lighen;
+  }
+}
+
+.downloads {
+  margin-top: 25px;
+
+  &__link {
+    margin-right: 10px;
+    text-decoration: none;
+  }
+}
+
+.additional-navigation {
+  width: 559px;
+  margin-top: 60px;
+  margin-left: auto;
+  display: flex;
+
+  &__column {
+    flex: 1;
+  }
+}
+
+.nav-links {
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  &__list {
+    padding: 0;
+    margin: 18px 0 0 0;
+    list-style: none;
+
+    &-item {
+      font-size: 18px;
+      line-height: 30px;
+      color: $text-color-lighen;
+    }
+  }
+}
+
+.footer-links {
+  height: 50px;
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.terms {
+  font-size: 14px;
+  line-height: 22px;
+  &__link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: $text-color-lighen;
+  }
+}
+
+.socials {
+  &__link {
+    margin-left: 20px;
+  }
+}
+
+.twitter {
+  text-decoration: none;
+  &__icon {
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png);
+    background-repeat: no-repeat;
+  }
+}
+
+.facebook {
+  text-decoration: none;
+  &__icon {
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png);
+    background-repeat: no-repeat;
+  }
+}
+
+.linkedin {
+  text-decoration: none;
+  &__icon {
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png);
+    background-repeat: no-repeat;
+  }
+}
