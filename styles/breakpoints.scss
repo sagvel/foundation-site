@@ -1,0 +1,8 @@
+$sm: 320px;
+$xxl: 1440px;
+
+@mixin mobile-screen {
+  @media (min-width: $xxl) {
+    @content;
+  }
+}
