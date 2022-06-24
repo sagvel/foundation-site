@@ -1,7 +1,7 @@
 $sm: 320px;
-$xxl: 1400px;
+$xxl: 1399px;
 
-@mixin mobile-screen {
+@mixin for-large-up {
   @media (min-width: $xxl) {
     @content;
   }

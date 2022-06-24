@@ -1,0 +1,94 @@
+@import './breakpoints.scss';
+@import './variables.scss';
+
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px;
+  margin: auto;
+  background-color: $color-light-grey;
+  max-width: 100%;
+
+  @include for-large-up {
+    flex-direction: row;
+    padding: 72px 226px;
+  }
+
+  &__details {
+  }
+
+  &__action {
+    margin-top: 40px;
+    @include for-large-up {
+      display: flex;
+      margin-top: 26px;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+
+  &__img {
+    max-width: 200px;
+    margin-right: 121px;
+    height: auto;
+    display: block;
+
+    @include for-large-up {
+      max-width: 269px;
+    }
+  }
+
+  &__title {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.25px;
+  }
+
+  &__text {
+    margin-top: 18px 0 0 0;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  &__email {
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid $text-color-lighen;
+    border-radius: calc($border-radius / 4);
+
+    &::placeholder {
+      color: $text-color-main;
+    }
+
+    @include for-large-up {
+      width: 385px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 12px;
+    @include for-large-up {
+      width: 160px;
+    }
+  }
+
+  &__terms {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    color: $text-color-lighen;
+  }
+
+  &__terms-link {
+    color: $color-blue;
+  }
+}

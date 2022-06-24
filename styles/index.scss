@@ -21,20 +21,21 @@ html {
   font-weight: 700;
   font-size: 18px;
   line-height: 13px;
-  background: #3040c4;
+  background: $color-blue;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: calc($border-radius / 4);
   border: none;
   color: $text-color-white;
-}
 
-.btn-inverted {
-  color: #3040c4;
-  background-color: #fff;
+  &-alternative {
+    color: $color-blue;
+    background-color: #fff;
+  }
 }
 
 @import './header.scss';
 @import './headline.scss';
+@import './order.scss';
 @import './footer.scss';
