@@ -295,6 +295,8 @@ html {
 @media (min-width: 1399px) {
   .audience__buttons {
     margin-top: 34px;
+    display: flex;
+    align-items: flex-end;
   }
 }
 .audience__button {
@@ -303,8 +305,9 @@ html {
 }
 @media (min-width: 1399px) {
   .audience__button {
-    display: inline-block;
+    display: block;
     margin-right: 10px;
+    margin-top: 0;
     width: 160px;
   }
 }

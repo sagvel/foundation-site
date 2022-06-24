@@ -55,6 +55,8 @@
 
     @include for-large-up {
       margin-top: 34px;
+      display: flex;
+      align-items: flex-end;
     }
   }
 
@@ -63,8 +65,9 @@
     display: block;
 
     @include for-large-up {
-      display: inline-block;
+      display: block;
       margin-right: 10px;
+      margin-top: 0;
       width: 160px;
     }
   }
