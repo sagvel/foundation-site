@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  width: 1440px;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -180,6 +180,7 @@ html {
 }
 
 .footer-line {
+  width: 1400px;
   border-top: 1px solid #eae9eb;
 }
 
