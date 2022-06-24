@@ -1,8 +1,9 @@
 .headline {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
   max-width: 100%;
-  padding: 35px 15px 0 15px;
+  padding: 0 15px;
 
   @include for-large-up {
     padding: 0;
@@ -12,13 +13,13 @@
   }
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
     letter-spacing: -0.3px;
 
     @include for-large-up {
-      margin: 0;
       position: relative;
       width: 754px;
       height: 165px;

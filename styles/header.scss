@@ -13,7 +13,7 @@
 
 .header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   height: 62px;
   margin: 0 auto;
@@ -61,12 +61,14 @@
   line-height: 25px;
 
   &__image {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     margin-right: 15px;
     margin-left: 15px;
 
     @include for-large-up {
+      width: 60px;
+      height: 60px;
       margin-left: 0;
     }
   }
