@@ -15,9 +15,6 @@
     padding: 72px 226px;
   }
 
-  &__details {
-  }
-
   &__action {
     margin-top: 40px;
     @include for-large-up {
@@ -30,11 +27,11 @@
 
   &__img {
     max-width: 200px;
-    margin-right: 121px;
     height: auto;
     display: block;
 
     @include for-large-up {
+      margin-right: 121px;
       max-width: 269px;
     }
   }
