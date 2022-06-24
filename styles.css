@@ -270,6 +270,7 @@ html {
 @media (min-width: 1399px) {
   .audience__subtitle {
     width: 555px;
+    margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
@@ -291,6 +292,11 @@ html {
 .audience__buttons {
   margin-top: 30px;
 }
+@media (min-width: 1399px) {
+  .audience__buttons {
+    margin-top: 34px;
+  }
+}
 .audience__button {
   width: 100%;
   display: block;
@@ -298,6 +304,7 @@ html {
 @media (min-width: 1399px) {
   .audience__button {
     display: inline-block;
+    margin-right: 10px;
     width: 160px;
   }
 }
@@ -310,7 +317,7 @@ html {
     display: flex;
     justify-content: space-between;
     width: 1140px;
-    margin-top: 110px;
+    margin-top: 111px;
   }
 }
 .futures__item {
