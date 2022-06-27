@@ -8,3 +8,5 @@ Used technologies
 - CSS 3
 - SASS
 - Figma
+
+Author Oleksandr Saulko
