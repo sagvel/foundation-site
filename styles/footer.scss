@@ -1,6 +1,3 @@
-@import './variables.scss';
-@import './breakpoints.scss';
-
 .footer-navigation {
   max-width: 100%;
   padding: 0 15px;
@@ -17,7 +14,6 @@
 .about-company {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 43px;
   padding: 0 30px;
   margin: 0 -15px;
@@ -98,7 +94,7 @@
     display: flex;
     margin-top: 0;
     width: 559px;
-    margin-left: auto;
+    margin-left: 157px;
   }
 
   &__column {
@@ -145,7 +141,7 @@
   @include for-large-up {
     padding: 0;
     margin: 0 auto;
-    width: 1140px;
+    width: 1100px;
     height: 50px;
     display: flex;
     justify-content: space-between;

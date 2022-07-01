@@ -1,5 +1,4 @@
-$sm: 320px;
-$xxl: 1399px;
+$xxl: 1400px;
 
 @mixin for-large-up {
   @media (min-width: $xxl) {
