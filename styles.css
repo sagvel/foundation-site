@@ -453,6 +453,8 @@
   .about-company {
     width: 360px;
     border: none;
+    padding: 0;
+    padding-left: 30px;
   }
 }
 .about-company .logo {

@@ -22,6 +22,8 @@
   @include for-large-up {
     width: 360px;
     border: none;
+    padding: 0;
+    padding-left: 30px;
   }
 
   & .logo {
