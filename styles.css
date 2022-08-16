@@ -286,6 +286,14 @@
     margin-top: 111px;
   }
 }
+.futures__item {
+  margin-top: 15px;
+}
+@media (min-width: 1400px) {
+  .futures__item {
+    margin-top: 0;
+  }
+}
 
 .future {
   display: flex;

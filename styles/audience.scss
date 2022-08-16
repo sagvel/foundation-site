@@ -79,9 +79,12 @@
     margin-top: 111px;
   }
 
-  // &__item {
-  //   margin-top: 15px;
-  // }
+  &__item {
+    margin-top: 15px;
+    @include for-large-up {
+      margin-top: 0;
+    }
+  }
 }
 .future {
   display: flex;
