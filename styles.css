@@ -357,16 +357,27 @@
   }
 }
 .order__title {
+  margin: 0;
   margin-top: 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
 }
+@media (min-width: 1400px) {
+  .order__title {
+    margin-top: 34px;
+  }
+}
 .order__text {
-  margin-top: 18px 0 0 0;
+  margin-top: 18px;
   font-size: 22px;
   line-height: 32px;
+}
+@media (min-width: 1400px) {
+  .order__text {
+    margin-top: 12px;
+  }
 }
 .order__email {
   width: 100%;
@@ -388,7 +399,6 @@
 }
 .order__button {
   width: 100%;
-  margin-top: 12px;
 }
 @media (min-width: 1400px) {
   .order__button {
@@ -466,6 +476,7 @@
 }
 .about-company__text {
   display: none;
+  margin-top: 26px;
   font-size: 18px;
   line-height: 26px;
   color: #918c96;
@@ -620,6 +631,11 @@ html {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   color: #2b292d;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .page {

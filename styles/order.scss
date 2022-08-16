@@ -1,7 +1,6 @@
 .order {
   display: flex;
   flex-direction: column;
-
   padding: 50px 15px;
   margin: auto;
   background-color: $color-light-grey;
@@ -34,17 +33,24 @@
   }
 
   &__title {
+    margin: 0;
     margin-top: 40px;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.25px;
+    @include for-large-up {
+      margin-top: 34px;
+    }
   }
 
   &__text {
-    margin-top: 18px 0 0 0;
+    margin-top: 18px;
     font-size: 22px;
     line-height: 32px;
+    @include for-large-up {
+      margin-top: 12px;
+    }
   }
 
   &__email {
@@ -68,7 +74,6 @@
 
   &__button {
     width: 100%;
-    margin-top: 12px;
     @include for-large-up {
       width: 160px;
     }
