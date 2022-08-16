@@ -14,4 +14,6 @@ For resolutions:
 - SASS preprocessor
 - Figma
 
+---
+
 **Create by Oleksandr Saulko**
