@@ -501,7 +501,7 @@
 @media (min-width: 1400px) {
   .additional-navigation {
     display: flex;
-    margin-top: 0;
+    margin-top: 17px;
     width: 559px;
     margin-left: 157px;
   }
