@@ -356,6 +356,7 @@
   max-width: 200px;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 @media (min-width: 1400px) {
   .order__img {
@@ -370,10 +371,12 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
+  text-align: center;
 }
 @media (min-width: 1400px) {
   .order__title {
     margin-top: 34px;
+    text-align-last: left;
   }
 }
 .order__text {
@@ -406,10 +409,12 @@
 }
 .order__button {
   width: 100%;
+  margin-top: 12px;
 }
 @media (min-width: 1400px) {
   .order__button {
     width: 160px;
+    margin-top: 0;
   }
 }
 .order__terms {
@@ -440,7 +445,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 43px;
-  padding-left: 30px;
+  padding: 0 30px;
   margin: 0 -15px;
   border-bottom: 1px solid #eae9eb;
 }
@@ -553,7 +558,7 @@
 
 @media (min-width: 1400px) {
   .footer-line {
-    width: 1400px;
+    max-width: 1400px;
     border-top: 1px solid #eae9eb;
   }
 }

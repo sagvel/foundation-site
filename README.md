@@ -4,7 +4,7 @@
 
 For resolutions:
 
-- Desctop 1400px
+- Desktop 1400px
 - Mobile 320px
 
 ## Technologies
@@ -16,4 +16,4 @@ For resolutions:
 
 ---
 
-**Create by Oleksandr Saulko**
+**Created by Oleksandr Saulko**
