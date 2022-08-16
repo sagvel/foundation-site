@@ -186,6 +186,7 @@
   }
 }
 .headline__banner {
+  max-width: 796px;
   display: block;
   height: auto;
   margin: 33px -15px 0 -15px;
