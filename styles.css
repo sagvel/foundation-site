@@ -39,7 +39,7 @@
   width: 64px;
   height: 64px;
   border: none;
-  border-left: 1px solid #918c96;
+  border-left: 1px solid #eae9eb;
   background-color: transparent;
 }
 @media (min-width: 1400px) {
@@ -423,9 +423,9 @@
   display: flex;
   flex-direction: column;
   margin-top: 43px;
-  padding: 0 30px;
+  padding-left: 30px;
   margin: 0 -15px;
-  border-bottom: 1px solid #918c96;
+  border-bottom: 1px solid #eae9eb;
 }
 @media (min-width: 1400px) {
   .about-company {
@@ -453,6 +453,7 @@
 }
 .about-company .logo__description {
   display: block;
+  text-align: center;
 }
 .about-company .logo__image {
   margin: 0 auto;
