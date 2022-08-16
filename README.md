@@ -7,9 +7,11 @@ For resolutions:
 - Desctop 1400px
 - Mobile 320px
 
-### Technologies
+## Technologies
 
 - HTML 5
 - CSS 3
 - SASS preprocessor
 - Figma
+
+### Create by Oleksandr Saulko
